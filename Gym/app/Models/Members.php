@@ -16,6 +16,6 @@ class Members extends Model
 
     public function workouts()
     {
-        return $this->hasMany(Workout::class);
+        return $this->belongsToMany(Workouts::class, 'workout_members');
     }
 }

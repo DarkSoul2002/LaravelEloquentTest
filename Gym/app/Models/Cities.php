@@ -5,12 +5,12 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class City extends Model
+class Cities extends Model
 {
     use HasFactory;
 
     public function gyms()
     {
-        return $this->belongsToMany(Gyms::class);
+        return $this->hasMany(Gyms::class);
     }
 }

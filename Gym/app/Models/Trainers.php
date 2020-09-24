@@ -11,11 +11,11 @@ class Trainers extends Model
 
     public function gyms()
     {
-        return $this->hasOne(Gyms::class);
+        return $this->belongsTo(Gyms::class);
     }
 
     public function workouts()
     {
-        return $this->hasMany(Workout::class);
+        return $this->hasMany(Workouts::class);
     }
 }

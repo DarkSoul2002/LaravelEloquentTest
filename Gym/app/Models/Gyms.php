@@ -9,9 +9,9 @@ class Gyms extends Model
 {
     use HasFactory;
 
-    public function city()
+    public function cities()
     {
-        return $this->hasOne(City::class);
+        return $this->belongsTo(Cities::class);
     }
 
     public function trainers()
@@ -24,8 +24,8 @@ class Gyms extends Model
         return $this->hasMany(Members::class);
     }
 
-    public function workout()
+    public function workouts()
     {
-        return $this->hasMany(Workout::class);
+        return $this->hasMany(Workouts::class);
     }
 }

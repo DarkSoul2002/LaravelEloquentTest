@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="329af03d-4212-469f-b7bd-0b7e3617c299" name="Default Changelist" comment="" />
+    <list default="true" id="329af03d-4212-469f-b7bd-0b7e3617c299" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/City.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Cities.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Gyms.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Gyms.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Members.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Members.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Trainers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Trainers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Workout.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Workouts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/CityFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/CitiesFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/WorkoutFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/WorkoutFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_23_125658_create_workouts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_23_125658_create_workouts_table.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +38,9 @@
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -123,6 +154,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1hucG2xcVWKoRe74CEe9nsQPwLl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -157,7 +189,14 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="405" y="64" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600952810724">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="405" y="64" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1600952810724" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1600864697067">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
