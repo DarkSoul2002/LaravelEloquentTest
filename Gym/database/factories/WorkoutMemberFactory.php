@@ -2,17 +2,17 @@
 
 namespace Database\Factories;
 
-use App\Models\WorkoutMembers;
+use App\Models\WorkoutMember;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
-class WorkoutMembersFactory extends Factory
+class WorkoutMemberFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
      *
      * @var string
      */
-    protected $model = WorkoutMembers::class;
+    protected $model = WorkoutMember::class;
 
     /**
      * Define the model's default state.
@@ -22,7 +22,8 @@ class WorkoutMembersFactory extends Factory
     public function definition()
     {
         return [
-            ''
+            '
+            '
         ];
     }
 }

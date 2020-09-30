@@ -2,7 +2,7 @@
 
 namespace Database\Factories;
 
-use App\Models\Members;
+use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class MembersFactory extends Factory
@@ -12,7 +12,7 @@ class MembersFactory extends Factory
      *
      * @var string
      */
-    protected $model = Members::class;
+    protected $model = User::class;
 
     /**
      * Define the model's default state.

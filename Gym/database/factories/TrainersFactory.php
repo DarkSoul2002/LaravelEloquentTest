@@ -2,7 +2,7 @@
 
 namespace Database\Factories;
 
-use App\Models\Trainers;
+use App\Models\Trainer;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class TrainersFactory extends Factory
@@ -12,7 +12,7 @@ class TrainersFactory extends Factory
      *
      * @var string
      */
-    protected $model = Trainers::class;
+    protected $model = Trainer::class;
 
     /**
      * Define the model's default state.

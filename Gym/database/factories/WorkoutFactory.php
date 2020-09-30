@@ -2,7 +2,7 @@
 
 namespace Database\Factories;
 
-use App\Models\Workouts;
+use App\Models\Workout;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class WorkoutFactory extends Factory
@@ -12,7 +12,7 @@ class WorkoutFactory extends Factory
      *
      * @var string
      */
-    protected $model = Workouts::class;
+    protected $model = Workout::class;
 
     /**
      * Define the model's default state.

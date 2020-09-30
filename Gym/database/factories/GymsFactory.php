@@ -2,7 +2,7 @@
 
 namespace Database\Factories;
 
-use App\Models\Gyms;
+use App\Models\Gym;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class GymsFactory extends Factory
@@ -12,7 +12,7 @@ class GymsFactory extends Factory
      *
      * @var string
      */
-    protected $model = Gyms::class;
+    protected $model = Gym::class;
 
     /**
      * Define the model's default state.
