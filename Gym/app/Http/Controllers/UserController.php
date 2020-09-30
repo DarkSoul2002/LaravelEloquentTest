@@ -24,30 +24,30 @@ class UserController extends Controller
     /**
      * Show the form for creating a new resource.
      *
-     * @param UserRequest $request
-     * @param User $user
      * @return \Illuminate\Http\Response
      */
-    public function create(UserRequest $request, User $user)
+    public function create()
     {
-        $user->name = $request->input('name');
-        $user->email = $request->input('email');
-        $user->password = bcrypt($request->input('password'));
 
-        $user->update();
-
-        return redirect(route('users.create', $user));
+        return view('users.create');
     }
 
     /**
      * Store a newly created resource in storage.
      *
      * @param \Illuminate\Http\Request $request
-     * @return \Illuminate\Http\Response
+     * @param User $user
+     * @return void
      */
-    public function store(Request $request)
+    public function store(UserRequest $request, User $user)
     {
-        //
+        $user->name = $request->input('name');
+        $user->email = $request->input('email');
+        $user->password = bcrypt($request->input('password'));
+
+        $user->save();
+
+        return redirect(route('users.index', $user));
     }
 
     /**

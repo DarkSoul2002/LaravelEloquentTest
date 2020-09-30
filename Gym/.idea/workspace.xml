@@ -20,39 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="329af03d-4212-469f-b7bd-0b7e3617c299" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/users/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/users/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/users/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Gym.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Gym.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Cities.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/City.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Gyms.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Gym.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Members.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Trainers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Trainer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/WorkoutMembers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/WorkoutMember.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Workouts.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Workout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/CitiesFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/CitiesFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/GymsFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/GymsFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/MembersFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/MembersFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/TrainersFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/TrainersFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/WorkoutFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/WorkoutFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/WorkoutMembersFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/WorkoutMemberFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_23_125546_create_cities_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_23_125546_create_city_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_23_125600_create_gyms_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_23_125600_create_gym_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_23_125612_create_members_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_23_125624_create_trainers_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_23_125624_create_trainer_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_23_125658_create_workouts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_23_125658_create_workout_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_24_120218_workout_members.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/create.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +198,7 @@
       <workItem from="1601274338218" duration="10794000" />
       <workItem from="1601302823980" duration="175000" />
       <workItem from="1601371282221" duration="5599000" />
-      <workItem from="1601456072367" duration="4161000" />
+      <workItem from="1601456072367" duration="5910000" />
     </task>
     <servers />
   </component>
