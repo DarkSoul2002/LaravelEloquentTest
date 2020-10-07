@@ -15,6 +15,7 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/83730f13b2.js" crossorigin="anonymous"></script>
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -33,7 +34,12 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-
+                        <li class="{{ request()->is('home') ? 'active' : 'nav-item' }}">
+                            <a class="nav-link" href="{{ route('home') }}">Home</a>
+                        </li>
+                        <li class="{{ request()->is('users') ? 'active' : 'nav-item' }}">
+                            <a class="nav-link" href="{{ route('users.index') }}">Users</a>
+                        </li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->

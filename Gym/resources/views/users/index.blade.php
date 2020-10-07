@@ -16,7 +16,7 @@
                                 <th scope="col">Name</th>
                                 <th scope="col">Email</th>
                                 <th scope="col">Verified</th>
-                                <th scope="col">
+                                <th scope="col" class="text-center">
                                     <a href="{{ route('users.create') }}" class="btn-sm btn-primary">Create User</a>
                                 </th>
                             </tr>
@@ -28,13 +28,19 @@
                                     <td>{{{ $user->name }}}</td>
                                     <td>{{{ $user->email }}}</td>
                                     <td>{{{ $user->email_verified_at }}}</td>
-                                    <td class="text-right">
-                                        <a href="{{ route('users.edit', $user) }}" class="btn btn-primary btn-sm">Edit</a>
-                                        <form action="{{ route('users.destroy', $user->id) }}" method="POST">
+                                    <td>
+                                        <div class="input-group">
+                                        <a href="{{ route('users.edit', $user) }}" class="btn btn-primary btn-sm mx-auto">
+                                            <i class="fas fa-user-edit"></i>
+                                        </a>
+                                        <form action="{{ route('users.destroy', $user->id) }}" method="POST" class="mx-auto">
                                             @method('DELETE')
                                             @csrf
-                                            <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                                            <button type="submit" class="btn btn-sm btn-danger">
+                                                <i class="fas fa-trash-alt"></i>
+                                            </button>
                                         </form>
+                                        </div>
                                     </td>
                                 </tr>
                             @endforeach
