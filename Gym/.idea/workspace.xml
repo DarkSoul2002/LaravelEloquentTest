@@ -20,13 +20,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="329af03d-4212-469f-b7bd-0b7e3617c299" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/users/workouts.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/public/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/public/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/resources/sass/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/resources/sass/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/resources/views/posts/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/MembersFactory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../users/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../users/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../users/.idea/users.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../users/.idea/users.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../users/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../users/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../users/app/Http/Controllers/UserController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../users/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/../users/app/Models/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../users/app/Models/Tag.php" beforeDir="false" afterPath="$PROJECT_DIR$/../users/app/Models/Tag.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../users/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/../users/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../users/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../users/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../users/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../users/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../users/database/migrations/2020_09_21_124000_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../users/database/migrations/2020_09_21_124000_create_posts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../users/database/migrations/2020_09_22_105626_create_post_tag_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../users/database/migrations/2020_09_22_105626_create_post_tag_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../users/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../users/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../users/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../users/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../users/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../users/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +182,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/users" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -208,6 +222,13 @@
       <workItem from="1601629563253" duration="2582000" />
       <workItem from="1601976455992" duration="1742000" />
       <workItem from="1602061861737" duration="162000" />
+      <workItem from="1602070854780" duration="98000" />
+      <workItem from="1602153227253" duration="301000" />
+      <workItem from="1602153634982" duration="65000" />
+      <workItem from="1602153720803" duration="2695000" />
+      <workItem from="1602162652068" duration="651000" />
+      <workItem from="1602246195893" duration="2310000" />
+      <workItem from="1602496365421" duration="371000" />
     </task>
     <servers />
   </component>
