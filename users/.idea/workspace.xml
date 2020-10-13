@@ -3,8 +3,44 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed0d452e-4af2-41c0-8177-d5f124c7d2c8" name="Default Changelist" comment="" />
+    <list default="true" id="ed0d452e-4af2-41c0-8177-d5f124c7d2c8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Gym/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Gym/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/users.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/users.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Comment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Tag.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Tag.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_21_124000_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_21_124000_create_posts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_22_105626_create_post_tag_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_22_105626_create_post_tag_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +49,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -126,9 +165,11 @@
       <path value="$PROJECT_DIR$/vendor/symfony/debug" />
       <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar" />
       <path value="$PROJECT_DIR$/vendor/maximebf/debugbar" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="ProjectId" id="1hdhXzSIhOYBYNig2s0WQ4m2Wy2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -138,9 +179,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/resources" />
+      <recent name="$PROJECT_DIR$/resources/views" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -164,21 +212,39 @@
       <workItem from="1600755845161" duration="14928000" />
       <workItem from="1600853057294" duration="5255000" />
       <workItem from="1602062456621" duration="701000" />
+      <workItem from="1602064875712" duration="4158000" />
+      <workItem from="1602153228379" duration="454000" />
+      <workItem from="1602153721842" duration="4661000" />
+      <workItem from="1602162648740" duration="988000" />
+      <workItem from="1602246198499" duration="6332000" />
+      <workItem from="1602496363511" duration="1762000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="517" y="148" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600427578037">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="517" y="148" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1600427578037" />
-    <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600771723104">
+    <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1602246802247">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.900@0.0.1440.900" timestamp="1600771723104" />
+    <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.900@0.0.1440.900" timestamp="1602246802247" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1600349003499">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -199,14 +265,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="446" y="183" key="NewPhpClassDialog/0.0.1440.900@0.0.1440.900" timestamp="1600763336568" />
-    <state x="539" y="380" key="NewPhpFileDialog" timestamp="1600347750305">
+    <state x="539" y="380" key="NewPhpFileDialog" timestamp="1602163125421">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="539" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1600347750305" />
-    <state x="421" y="205" width="598" height="490" key="find.popup" timestamp="1600861697161">
+    <state x="539" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1602163125421" />
+    <state x="421" y="205" width="598" height="490" key="find.popup" timestamp="1602153284637">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="421" y="205" width="598" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1600861697161" />
+    <state x="421" y="205" width="598" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1602153284637" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1600853955127">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

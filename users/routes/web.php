@@ -27,3 +27,6 @@ Route::get('/', function () {
 
 Route::get('users', 'App\Http\Controllers\UserController@index');
 Route::post('users', 'App\Http\Controllers\UserController@store');
+
+
+Route::resource('posts', 'App\Http\Controllers\PostController');
