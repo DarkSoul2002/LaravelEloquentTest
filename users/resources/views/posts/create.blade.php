@@ -15,7 +15,7 @@
                                 <label for="tag" class="col-md-4 col-form-label text-md-right">{{ __('Tag') }}</label>
 
                                 <div class="col-md-6">
-                                    <select class="custom-select" name="tags[]" id="tag">
+                                    <select class="custom-select" name="tags[]" id="tag" multiple>
                                         @foreach($tags as $tag)
                                             <option value="{{ $tag->id }}">{{ $tag->name }}</option>
                                             @endforeach

@@ -14,15 +14,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $user = App\Models\User::first();
+    $container = new \App\Models\Container();
 
-    $post = $user->posts()->create([
-        'user_id' => App\Models\User::factory(),
-        'title' => 'foobar',
-        'body' => 'lorum ipsum'
-    ]);
+    $container->bind('example', function () {
+       return new \App\Models\Example();
+    });
 
-    return view('welcome');
+    $example = $container->resolve('example');
+
+    $example->go();
 });
 
 Route::get('users', 'App\Http\Controllers\UserController@index');

@@ -40,19 +40,21 @@ class PostController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Http\RedirectResponse|\Illuminate\View\View
      */
-    public function store(Request $request, Post $post, Post_tag $post_tag)
+    public function store(Request $request)
     {
+        $post = new Post;
+
         $post->user_id = $request->input('user.0');
         $post->title = $request->input('title');
         $post->body = $request->input('body');
 
         $post->save();
 
-        $post_tag->tag_id = $request->input('tags.0');
-        $post_tag->post_id = $post->id;
+        $post->tags()->attach(request('tags'));
 
-        $post_tag->save();
-
+//        $post_tag = new Post_tag;
+//        $post_tag->tag_id = $request->input('tags');
+//        $post_tag->post_id = $post->id;
 
         return redirect(route('posts.index'));
     }
