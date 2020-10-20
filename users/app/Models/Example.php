@@ -4,8 +4,8 @@ namespace App\Models;
 
 class Example
 {
-    public function go()
+    public function handle()
     {
-        dump('It works!');
+        die('it works');
     }
 }

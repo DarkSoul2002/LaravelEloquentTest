@@ -23,12 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed0d452e-4af2-41c0-8177-d5f124c7d2c8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Gym/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Gym/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/payments/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Example.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Example.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -171,6 +171,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -209,7 +211,9 @@
       <workItem from="1602246198499" duration="6332000" />
       <workItem from="1602496363511" duration="3677000" />
       <workItem from="1602669693020" duration="2095000" />
-      <workItem from="1602750490338" duration="1208000" />
+      <workItem from="1602750490338" duration="4030000" />
+      <workItem from="1602756543633" duration="272000" />
+      <workItem from="1602841659380" duration="5017000" />
     </task>
     <servers />
   </component>
@@ -229,14 +233,18 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="533" y="184" key="#com.intellij.ide.util.MemberChooser" timestamp="1603190956302">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="184" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1603190956302" />
     <state x="517" y="148" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600427578037">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="517" y="148" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1600427578037" />
-    <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1602246802247">
+    <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603190743991">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.900@0.0.1440.900" timestamp="1602246802247" />
+    <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.900@0.0.1440.900" timestamp="1603190743991" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1600349003499">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -253,14 +261,18 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600349003499" />
-    <state x="446" y="183" key="NewPhpClassDialog" timestamp="1600763336568">
+    <state x="446" y="183" key="NewPhpClassDialog" timestamp="1602755246054">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="446" y="183" key="NewPhpClassDialog/0.0.1440.900@0.0.1440.900" timestamp="1600763336568" />
-    <state x="539" y="380" key="NewPhpFileDialog" timestamp="1602163125421">
+    <state x="446" y="183" key="NewPhpClassDialog/0.0.1440.900@0.0.1440.900" timestamp="1602755246054" />
+    <state x="539" y="380" key="NewPhpFileDialog" timestamp="1603187149520">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="539" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1602163125421" />
+    <state x="539" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1603187149520" />
+    <state x="221" y="100" key="SettingsEditor" timestamp="1602756528682">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="100" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1602756528682" />
     <state x="421" y="205" width="598" height="490" key="find.popup" timestamp="1602153284637">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

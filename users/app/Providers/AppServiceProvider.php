@@ -2,6 +2,8 @@
 
 namespace App\Providers;
 
+use App\Models\Collaborator;
+use App\Models\Example;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Support\ServiceProvider;
 
@@ -14,7 +16,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->bind('example', function () {
+            return new Example();
+        });
     }
 
     /**
