@@ -27,7 +27,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 // Controller       UserController
 // route resource   users
 // views            users.index, users.create, users.edit
-Route::resource('users', \App\Http\Controllers\UserController::class)->middleware('auth');;
+Route::resource('users', \App\Http\Controllers\UserController::class)->middleware('auth');
 
 
 
