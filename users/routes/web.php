@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 
 
-Route::get('users', 'App\Http\Controllers\UserController@index')->middleware('can:view');
+Route::get('users', 'App\Http\Controllers\UserController@index')->middleware('auth');
 Route::post('users', 'App\Http\Controllers\UserController@store');
 
 
